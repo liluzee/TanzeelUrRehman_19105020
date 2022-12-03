@@ -91,7 +91,7 @@ Node *deleteNode(struct Node *root, int data)
   else if (data > root->data)
     root->right = deleteNode(root->right, data);
 
-  // If neither of the two conditions work, that means the root is the element to be deleted.
+  // If neither of the two conditions work, that means the root is the node to be deleted.
   else
   {
     // If the node to be deleted has no children, then we can simply delete the node and replace it with NULL.
